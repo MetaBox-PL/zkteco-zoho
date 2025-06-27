@@ -1,0 +1,6 @@
+e.env
+*.log
+__pycache__/
+venv/
+zkteco-env/
+*.pyc
