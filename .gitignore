@@ -1,6 +1,17 @@
+cat <<EOF > .gitignore
+# Ignore environment and secrets
 e.env
-*.log
-__pycache__/
+
+# Ignore virtual environments
 venv/
 zkteco-env/
+
+# Ignore build and Python cache
+__pycache__/
 *.pyc
+
+# Ignore logs and generated files
+*.log
+*.json
+data/
+EOF

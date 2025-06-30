@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: zk-mariadb
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: metabox10
+      MYSQL_DATABASE: zk_attendance
+      MYSQL_USER: farzeen
+      MYSQL_PASSWORD: metabox10
+    volumes:
+      - zk_mariadb_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  zk_mariadb_data:

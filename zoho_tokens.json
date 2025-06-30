@@ -1,8 +1,0 @@
-{
-  "access_token": "1000.7ada7779e1a971b7af15aaecdc53ec45.ffedf1bd4a40ff6d7db0592f6c11350c",
-  "refresh_token": "1000.a0d9d816b9d1eae3c2f4104a2a8d5b91.d6d66e06595639248c45cf5242544a5a",
-  "scope": "ZOHOPEOPLE.employee.ALL ZOHOPEOPLE.attendance.ALL ZOHOPEOPLE.forms.ALL",
-  "api_domain": "https://www.zohoapis.com",
-  "token_type": "Bearer",
-  "expires_in": 3600
-}

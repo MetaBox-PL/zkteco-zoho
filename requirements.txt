@@ -1,0 +1,15 @@
+certifi==2025.6.15
+charset-normalizer==3.4.2
+Cython==3.1.2
+future==1.0.0
+idna==3.10
+mysql-connector-python==9.3.0
+ply==3.11
+python-dotenv==1.1.0
+pyzk==0.9
+requests==2.32.4
+setuptools==75.9.1
+six==1.17.0
+thriftpy2==0.5.2
+urllib3==2.4.0
+zk==0.9.4
